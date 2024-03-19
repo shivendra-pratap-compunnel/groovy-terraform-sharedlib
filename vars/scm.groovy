@@ -2,7 +2,7 @@
 void call(Map scm = [:]) {
     // TODO simplify with elvis operator
     if (scm.credentials == null) {
-        scm.credentials = 'groovy-terraform-sharedlib'
+        scm.credentials = 'terrafrom-config'
         echo scm.credentials
     } else {
         echo scm.credentials
