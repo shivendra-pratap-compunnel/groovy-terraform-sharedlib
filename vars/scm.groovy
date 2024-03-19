@@ -12,5 +12,4 @@ void call(Map scm = [:]) {
     changelog: false,
     credentialsId: "${scm.credentials}",
     url: "${scm.repoURL}"
-    echo "############## Git repository successfully cloned under Jenkins"
 }
