@@ -6,9 +6,3 @@ void call() {
     '''
 }
 
-
-// void call() {
-//      echo "----- Creating plan to validate -----"
-//     sh 'terraform plan -no-color -out=tfplan -input=false'
-//     sh  'terraform show -no-color -json tfplan > tfplan.json'
-// }
