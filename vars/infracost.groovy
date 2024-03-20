@@ -2,7 +2,7 @@
 void call() {
     echo "Running Infracost...."
     sh '''
-        Infracost breakdown --path .
+        /usr/local/bin/Infracost breakdown --path .
     '''
     echo "Finised infracost run."
 }
